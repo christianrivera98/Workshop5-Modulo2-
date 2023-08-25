@@ -1,12 +1,15 @@
 import React from 'react'
-import StatusBar from '../components/statusBar/StatusBar'
-import Footer from '../components/footer/Footer'
+import StatusBar from '../findy/components/statusBar/StatusBar'
+import Footer from '../findy/components/footer/Footer'
+import Home from '../findy/components/home/Home'
+
 
 function Homepage() {
   return (
     <>
-        <StatusBar/>
-        <Footer/>
+       
+        <Home/>
+        
     </>
   )
 }
